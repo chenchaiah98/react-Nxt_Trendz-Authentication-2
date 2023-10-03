@@ -43,10 +43,10 @@ const Header = props => {
             <Link to="/" className="link">
               <li className="nav-menu-item">Home</li>
             </Link>
-            <Link to="/Products" className="link">
+            <Link to="/products" className="link">
               <li className="nav-menu-item">Products</li>
             </Link>
-            <Link to="/Cart" className="link">
+            <Link to="/cart" className="link">
               <li className="nav-menu-item">Cart</li>
             </Link>
           </ul>
@@ -72,7 +72,7 @@ const Header = props => {
           </li>
 
           <li className="nav-menu-item-mobile">
-            <Link to="/Products" className="link">
+            <Link to="/products" className="link">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
                 alt="nav products"
@@ -82,7 +82,7 @@ const Header = props => {
           </li>
 
           <li className="nav-menu-item-mobile">
-            <Link to="/Cart" className="link">
+            <Link to="/cart" className="link">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png"
                 alt="nav cart"
